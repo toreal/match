@@ -23,7 +23,7 @@ PImage photo,photo1,photo2,photo3 ;
 void mousePressed(){
   
   int p=(mouseY/ch)*n+ mouseX/cw;
-  
+  print(p);
   
   if ( sel< 0 )
   {
