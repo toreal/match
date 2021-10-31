@@ -4,6 +4,7 @@ int m = 5;
 int cw = width/n;
 int ch = height/m;
 int gap = 5;
+//nice
 
 int index =0;
 
