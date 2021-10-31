@@ -5,6 +5,7 @@ int cw = width/n;
 int ch = height/m;
 int gap = 5;
 //nice
+//good
 
 int index =0;
 
