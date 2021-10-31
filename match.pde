@@ -24,6 +24,7 @@ void mousePressed(){
   
   int p=(mouseY/ch)*n+ mouseX/cw;
   
+  
   if ( sel< 0 )
   {
     
