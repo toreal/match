@@ -4,8 +4,7 @@ int m = 5;
 int cw = width/n;
 int ch = height/m;
 int gap = 5;
-//nice
-//good
+
 
 int index =0;
 
@@ -54,7 +53,7 @@ void setup(){
     mycolor[i] =(int) random(3);
     mystate[i] =true;
     }
-    photo = loadImage("Card.jpg");
+ 
 }
 
 
@@ -110,9 +109,7 @@ for( int i=0; i < n ; i=i+1){
   
   if ( mystate[index])
   {
-   if ( mycolor[index] == 0 &&( index == sel || index== sec ) )
-    image(photo, i*cw+gap,j*ch+gap,cw-2*gap,ch-2*gap);
-    else
+ 
         rect(i*cw+gap,j*ch+gap,cw-2*gap,ch-2*gap);
   }
   
